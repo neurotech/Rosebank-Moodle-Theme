@@ -1,0 +1,51 @@
+#conversations {
+	margin-left:3px;
+}
+
+#parentconvo, #studentconvo, #staffconvo {
+	display:block;
+	width:165px;
+	height:44px;
+	background:url([[pix:theme|conversations]]);
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+}
+
+#parentconvo {
+	background-position:0px -3px;
+	margin-bottom:3px;
+}
+
+#studentconvo {
+	background-position:0px -47px;
+	margin-bottom:3px;
+}
+
+#staffconvo {
+	background-position:0px -91px;
+}
+
+#parentconvo:hover {
+	background-position:0px -138px;
+}
+
+#studentconvo:hover {
+	background-position:0px -182px;
+}
+
+#staffconvo:hover {
+	background-position:0px -226px;
+}
+
+#parentconvo:active {
+	background-position:0px -273px;
+}
+
+#studentconvo:active {
+	background-position:0px -317px;
+}
+
+#staffconvo:active {
+	background-position:0px -361px;
+}

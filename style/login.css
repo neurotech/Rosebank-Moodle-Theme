@@ -1,0 +1,87 @@
+/* Base Elements */
+#loginContainer {
+	width:530px;
+	height:526px;
+	padding:0;
+	margin:22px auto 0 auto;
+}
+#loginHeader {
+	width:530px;
+	height:131px;
+	background:url([[pix:theme|login/login_header]]) no-repeat;
+}
+#loginMiddle {
+	width:530px;
+	height:259px;
+	background:url([[pix:theme|login/login_bg]]) no-repeat;
+}
+#loginCrest {
+	width:530px;
+	height:130px;
+	background:url([[pix:theme|login/crest]]) no-repeat;
+}
+
+/* Form Elements */
+
+#login {
+	padding-top:10px;
+}
+#loginUsername {
+	display:block;
+	width:349px;
+	height:44px;
+	line-height:44px;
+	margin:0 auto 0 auto;
+	padding:0;
+	text-indent:12px;
+	background:url([[pix:theme|login/username-field]]) no-repeat 0 0;
+	border:none;
+	color:#91a0b8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:1.4em;
+	text-shadow:0 1px 0 white;
+}
+#loginUsername:focus {
+	background:url([[pix:theme|login/username-field_focus]]) no-repeat 0 0;
+	color:#525252;
+}
+#loginPassword {
+	display:block;
+	width:349px;
+	height:44px;
+	line-height:44px;
+	padding:0;
+	text-indent:12px;
+	letter-spacing:2px;
+	margin:50px auto 0 auto;
+	background:url([[pix:theme|login/password-field]]) no-repeat 0 0;
+	border:none;
+	color:#91a0b8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:2em;
+	text-shadow:0 1px 0 white;
+}
+#loginPassword:focus {
+	background:url([[pix:theme|login/password-field_focus]]) no-repeat 0 0;
+	color:#525252;
+}
+#loginButton {
+	display:block;
+	width:158px;
+	height:55px;
+	margin:21px 0 0 333px;
+	background:url([[pix:theme|login/login_button]]) no-repeat;
+	border:none;
+}
+#loginButton:active {
+	background:url([[pix:theme|login/login_button_active]]) no-repeat;
+}
+#loginError {
+	width:260px;
+	height:41px;
+	margin:3px 0 0 64px;
+	background:url([[pix:theme|login/login_error]]) no-repeat 0 0;
+	float:left;
+}
